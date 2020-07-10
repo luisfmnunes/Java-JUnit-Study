@@ -2,7 +2,7 @@ package com.test;
 
 import java.util.Arrays;
 
-public class Calculadora {
+public class Calculadora{
 
     public static Operacao soma = expressao -> Arrays.stream(expressao.split("\\+")).mapToInt(Integer::valueOf).sum();
 
